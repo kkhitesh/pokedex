@@ -65,7 +65,7 @@ const PokemonDetails = ({ pokemon }: PokemonDetailsProps) => {
       {showModal ? (
         <>
           <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
-            <div className="relative w-auto my-6 mx-auto max-w-3xl">
+            <div className="relative w-auto my-6 mx-auto max-w-5xl">
               {/*content*/}
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                 {/*header*/}
@@ -135,7 +135,10 @@ const PokemonDetails = ({ pokemon }: PokemonDetailsProps) => {
                 key={type}
                 className=" text-white text-xs font-medium mr-2 px-2.5 py-0.5 rounded "
                 style={{
-                  backgroundColor: stylesData.styles[type.toLowerCase()],
+                  backgroundColor:
+                    stylesData.styles[
+                      type.toLowerCase() as keyof typeof stylesData.styles
+                    ],
                 }}
               >
                 {type}
@@ -149,7 +152,10 @@ const PokemonDetails = ({ pokemon }: PokemonDetailsProps) => {
                 key={res}
                 className=" text-white text-xs font-medium mr-2 px-2.5 py-0.5 rounded "
                 style={{
-                  backgroundColor: stylesData.styles[res.toLowerCase()],
+                  backgroundColor:
+                    stylesData.styles[
+                      res.toLowerCase() as keyof typeof stylesData.styles
+                    ],
                 }}
               >
                 {res}
@@ -163,7 +169,10 @@ const PokemonDetails = ({ pokemon }: PokemonDetailsProps) => {
                 key={weak}
                 className=" text-white text-xs font-medium mr-2 px-2.5 py-0.5 rounded "
                 style={{
-                  backgroundColor: stylesData.styles[weak.toLowerCase()],
+                  backgroundColor:
+                    stylesData.styles[
+                      weak.toLowerCase() as keyof typeof stylesData.styles
+                    ],
                 }}
               >
                 {weak}
