@@ -2,7 +2,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-<img src="https://cdn.dribbble.com/users/542624/screenshots/2858767/pokedex.png?resize=400x0" >
+
+![pokedex](https://github.com/kkhitesh/pokedex/assets/61322830/e6d9c109-45e0-4e76-8a94-006be9f374c9)
+
 
 First, run the development server:
 
