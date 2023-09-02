@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+<img src="https://cdn.dribbble.com/users/542624/screenshots/2858767/pokedex.png?resize=400x0" >
+
 First, run the development server:
 
 ```bash
